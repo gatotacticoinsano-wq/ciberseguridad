@@ -1,0 +1,7 @@
+# SecureGuard Antivirus - firmas de demostración
+# Cada línea es una cadena de texto que el prototipo buscará en los archivos.
+EICAR-STANDARD-ANTIVIRUS-TEST-FILE
+MALWARE-TEST
+virus_sample
+badfile.exe
+suspicious.exe

@@ -1,0 +1,5 @@
+SecureGuard Antivirus - Instalador demo
+
+Este archivo es un marcador de posición para la descarga demo de SecureGuard Antivirus.
+
+No es un instalador real. Es una demostración visual del producto para una presentación de sitio web.

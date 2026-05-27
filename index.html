@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Soluciones de seguridad digital profesional para proteger datos, redes y activos críticos.">
-    <title>Seguridad Digital Profesional</title>
+    <meta name="description" content="SecureGuard Antivirus: protección profesional contra malware, ransomware y phishing para empresas y usuarios.">
+    <title>SecureGuard Antivirus</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,24 +14,24 @@
         <div class="brand">
             <span class="logo"></span>
             <div>
-                <p class="eyebrow">Seguridad Digital Profesional</p>
-                <h1>Protegiendo tu empresa y tus datos</h1>
+                <p class="eyebrow">SecureGuard Antivirus</p>
+                <h1>Protege tu red con seguridad profesional</h1>
             </div>
         </div>
 
         <nav aria-label="Menú principal">
             <a href="#que-es">Inicio</a>
-            <a href="#amenazas">Amenazas</a>
-            <a href="#consejos">Consejos</a>
+            <a href="#descargar">Características</a>
+            <a href="#demo">Demo</a>
         </nav>
     </div>
 
     <div class="container hero">
         <div class="hero-card">
-            <p class="hero-category">Soluciones de defensa digital</p>
-            <h2>Conquista la seguridad de tu empresa con prácticas probadas.</h2>
-            <p>Identifica riesgos, fortalece tu infraestructura y protege tus activos con una estrategia clara y profesional.</p>
-            <a class="button" href="#consejos">Ver consejos</a>
+            <p class="hero-category">Protección en tiempo real</p>
+            <h2>El antivirus profesional para proteger tu equipo y tu empresa.</h2>
+            <p>SecureGuard detecta amenazas antes de que afecten tu trabajo. Rápido, ligero y diseñado para una seguridad confiable.</p>
+            <a class="button" href="#descargar">Descargar demo</a>
         </div>
     </div>
 </header>
@@ -40,48 +40,73 @@
     <section class="cards-grid" id="que-es">
         <article class="card">
             <span class="badge">01</span>
-            <h2>¿Qué es la ciberseguridad?</h2>
-            <p>Es el conjunto de medidas que protegen computadoras, redes y datos frente a ataques y accesos no autorizados.</p>
+            <h2>Protección completa</h2>
+            <p>Detección avanzada de malware, ransomware, spyware y phishing con actualizaciones automáticas.</p>
         </article>
 
         <article class="card" id="amenazas">
             <span class="badge">02</span>
-            <h2>Amenazas comunes</h2>
-            <ul>
-                <li>Virus y malware</li>
-                <li>Hackeos y accesos no autorizados</li>
-                <li>Phishing y fraudes</li>
-                <li>Robo de contraseñas</li>
-            </ul>
+            <h2>Firewall inteligente</h2>
+            <p>Control de aplicaciones y bloqueo de conexiones riesgosas para mantener tu red segura.</p>
         </article>
 
         <article class="card" id="consejos">
             <span class="badge">03</span>
-            <h2>Consejos</h2>
-            <ul>
-                <li>Usar contraseñas fuertes únicas</li>
-                <li>No abrir enlaces sospechosos</li>
-                <li>Actualizar dispositivos regularmente</li>
-                <li>Usar antivirus confiables</li>
-            </ul>
+            <h2>Atención profesional</h2>
+            <p>Soporte 24/7 y guías prácticas para mantener tus sistemas protegidos sin complicaciones.</p>
         </article>
     </section>
 
-    <section class="feature-panel">
+    <section class="feature-panel" id="descargar">
         <div>
-            <p class="eyebrow">Por qué importa</p>
-            <h2>Una buena defensa digital evita pérdidas y protege tu reputación.</h2>
-            <p>La ciberseguridad no es solo tecnología: es cultura, hábitos y atención constante. Con pequeños cambios puedes reducir mucho el riesgo.</p>
+            <p class="eyebrow">Características clave</p>
+            <h2>Seguridad empresarial con rendimiento optimizado.</h2>
+            <p>SecureGuard mantiene tu negocio protegido sin ralentizar tu equipo, con escaneo en segundo plano y defensa proactiva.</p>
         </div>
         <div class="feature-stats">
             <div class="stat-card">
-                <strong>95%</strong>
-                <p>de ataques podrían evitarse con contraseñas seguras.</p>
+                <strong>Tiempo real</strong>
+                <p>Monitoreo constante para bloquear amenazas al instante.</p>
             </div>
             <div class="stat-card">
-                <strong>1 de cada 3</strong>
-                <p>personas sufre un intento de phishing al año.</p>
+                <strong>Licencias</strong>
+                <p>Planes para pequeñas empresas y equipos administrativos.</p>
             </div>
+        </div>
+    </section>
+
+    <section class="download-panel">
+        <div>
+            <p class="eyebrow">Demo descargable</p>
+            <h2>Descarga el instalador de demostración</h2>
+            <p>Comparte una versión profesional del producto con clientes y demuestra la identidad de tu antivirus.</p>
+        </div>
+        <a class="button" href="SecureGuard-Demo.txt" download="SecureGuard-Demo.txt">Descargar demo</a>
+    </section>
+
+    <section class="scanner-section" id="demo">
+        <div class="scanner-card">
+            <div class="scan-header">
+                <p class="eyebrow">Demostración</p>
+                <h2>Escaneo rápido de seguridad</h2>
+            </div>
+            <p>Simula un análisis profesional con resultados instantáneos y lista de acciones recomendadas.</p>
+
+            <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" id="scanProgress"></div>
+            </div>
+            <p class="scan-status" id="scanStatus">Listo para iniciar el escaneo.</p>
+
+            <div class="scan-results" id="scanResults" hidden>
+                <p>Resultados del análisis:</p>
+                <ul>
+                    <li>Archivos revisados: <strong>2,842</strong></li>
+                    <li>Amenazas detectadas: <strong>0</strong></li>
+                    <li>Protección en tiempo real: <strong>Activa</strong></li>
+                </ul>
+            </div>
+
+            <button class="button scanner-action" id="startScan">Iniciar escaneo</button>
         </div>
     </section>
 </main>
