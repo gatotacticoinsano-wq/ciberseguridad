@@ -1,0 +1,14 @@
+[project]
+name = "secureguard"
+version = "0.1.0"
+description = "SecureGuard Antivirus: prototipo de detección por firmas y cuarentena en Python."
+authors = [
+  { name = "gatotacticoinsano-wq" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+secureguard = "secureguard.cli:main"
